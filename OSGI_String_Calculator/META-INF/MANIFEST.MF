@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: osgi_string_calculator.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: OSGI_String_Calculator
-Require-Bundle: OSGI_String_Calculator_Service;bundle-version="1.0.0",
+Require-Bundle: OSGI_Calculator_Middle;bundle-version="1.0.0",
  org.eclipse.osgi;bundle-version="3.12.50",
  org.eclipse.equinox.console;bundle-version="1.1.300",
  org.apache.felix.gogo.command;bundle-version="0.10.0",
